@@ -1,0 +1,7 @@
+server:
+  port: ${EUREKA_PORT:8761}
+spring:
+  security:
+    user:
+      name: ${EUREKA_USER_NAME:admin}
+      password: ${EUREKA_USER_PASSWORD:admin}
